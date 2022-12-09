@@ -1,7 +1,6 @@
 .container{
     display: flex;
-    background: black;
-    /*background: #D5F2E3;*/
+    background: #73ba9b;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -37,7 +36,6 @@ h1{
 .normal{
     animation: snow2 12s linear infinite;
 }
-
 @keyframes snow1{
     0%{background-position: 0px -100px;}
     100%{background-position: 150px 35px;}
@@ -46,3 +44,4 @@ h1{
 @keyframes snow2 {
     0%{ background-position: 0px 0px;}
     100%{ background-position: 300px 270px;}
+}
